@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+
+* {
+    font-family: "Gamja Flower", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+body {
+    background-image: url(https://cdn.discordapp.com/attachments/262272942417641495/1227612372345294929/image.png?ex=66290a1d&is=6616951d&hm=08e20dfab9ee1cd52bada3d70844900df72295228037fa53c6ce19684bc3fa15&);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.menu {
+    background-color: white;
+}
+
+.menu>div {
+    padding: 20px 20px 5px 20px;
+}
+
+.addBox {
+    width: 500px;
+    margin: 20px auto 20px auto;
+}
+
+.cardSection {
+    display: inline-block;
+}
+
+
+.header {
+    background-color: transparent;
+
+}
+
+.main {
+    background-color: transparent;
+}
