@@ -38,11 +38,27 @@ li {
     margin: 20px auto 20px auto;
 }
 
-.cardSection {
+
+
+.cardSectionDefaultInfo {
     display: inline-block;
 }
 
+.cardSectionMBTI {
+    display: inline-block;
+}
 
+.cardSectionStrength {
+    display: inline-block;
+}
+
+.cardSectionCollaboration {
+    display: inline-block;
+}
+
+.cardSectionHobby {
+    display: inline-block;
+}
 .header {
     background-color: transparent;
 
