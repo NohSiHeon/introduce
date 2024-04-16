@@ -32,7 +32,7 @@ $("#addBtn").click(async function () {
 
 
     await addDoc(collection(db, "introduce"), doc);
-    alert('작동 확인');
+    alert('추가됐습니다.');
     window.location.reload();
 
 
