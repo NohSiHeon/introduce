@@ -142,5 +142,7 @@ docs.forEach((doc) => {
         `;
         $('.cardSectionHobby').append(addText);
     }
-    else alert('기본 정보, MBTI, 나의 장점, 협업 스타일, 취미 중 하나를 입력해주세요');
+    else if(title == ""){
+        alert('기본 정보, MBTI, 나의 장점, 협업 스타일, 취미 중 하나를 입력해주세요');
+    }
 });
