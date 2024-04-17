@@ -33,11 +33,23 @@ $("#addBtn").click(async function () {
 
 
     await addDoc(collection(db, "introduce"), doc);
-    if (title != '기본 정보' || 'MBTI' || '나의 장점' || '협업 스타일', '취미'){
-        alert('타이틀 입력칸에 기본 정보, MBTI, 나의 장점, 협업 스타일, 취미 중 하나를 입력해주세요');
+    if (title == '기본 정보'){
+        alert('추가됐습니다.');
     }
-    else
-    alert('추가됐습니다.');
+    else if(title == 'MBTI'){
+        alert('추가됐습니다.');
+    }
+    else if(title == '나의 장점'){
+        alert('추가됐습니다.');
+    }
+    else if(title == '협업 스타일'){
+        alert('추가됐습니다.');
+    }
+    else if(title == '취미'){
+        alert('추가됐습니다.');
+    }
+    else    alert('타이틀 입력칸에 기본 정보, MBTI, 나의 장점, 협업 스타일, 취미 중 하나를 입력해주세요');
+    
     window.location.reload();
 
 
