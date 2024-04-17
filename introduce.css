@@ -67,3 +67,11 @@ li {
 .main {
     background-color: transparent;
 }
+
+#scrollBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fffacd;
+    color: #000;
+}
